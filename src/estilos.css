@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #146EA6;
+    color: #021F59;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.formulario{
+    width: 320px;
+    background: #05AFF2;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid #023059;
+    border-radius: 25px;
+}
+input[type = "text"]{
+    
+    width: 100%;
+    background: none;
+    border: 1px solid #021F59;
+    border-radius: 5px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom:20px;
+    color: #021F59;
+    text-align: center;
+    
+    
+    
+}
+input[type = "password"]{
+    
+    width: 100%;
+    background: none;
+    border: 1px solid #021F59;
+    border-radius: 5px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom:20px;
+    color: #021F59;
+    text-align: center;
+}
+input[type = "mail"]{
+    
+    width: 100%;
+    background: none;
+    border: 1px solid #021F59;
+    border-radius: 5px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom:20px;
+    color: #021F59;
+    text-align: center;
+}
+input[type = "phone"]{
+    width: 270px;
+    background: none;
+    border: 1px solid #021F59;
+    border-radius: 5px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom:20px;
+    color: #021F59;
+    text-align: center;
+}
+input[type = "radio"]{
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom:20px;
+}
+select[class="menu1"] {
+    width: 100%;
+    background: #146EA6;
+    border: 1px solid #021F59;
+    border-radius: 5px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom:20px;
+    color: #021F59;
+}
+input[type = "submit"]{
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom:20px;
+    background: #021F59;
+    color: #C4E5F2;
+    cursor: pointer;
+    width: 100%;
+}
+input[type = "submit"]:hover{
+    
+    background: #C4E5F2;
+    transition: 0.3s;
+    color: black;
+    
+}
