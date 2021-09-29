@@ -11,33 +11,34 @@
 
 <body>
     <div class="formulario">
-        <form action="">
+        <form action="Formu.php" method="POST">
             <table>
                 <tr>
-                    <td><input type="text" placeholder="Su nombre" name="nombre"></td>
+                    <td><input type="text" placeholder="Su nombre" name="nom" required></td>
                 </tr>
                 <tr>
-                    <td><input type="password" placeholder="Su contraseña" name="password"></td>
+                    <td><input type="password" placeholder="Su contraseña" name="password" required></td>
                 </tr>
                 <tr>
-                    <td><input type="mail" placeholder="Su correo" name="correo"></td>
+                    <td><input type="email" placeholder="Su correo" name="email" required></td>
                 </tr>
                 <tr>
-                    <td><input type="phone" placeholder="Su teléfono" name="telefono"></td>
+                    <td><input type="phone" placeholder="Su teléfono" name="tel" required></td>
                 </tr>
                 <tr>
                     <td>
-                        <input type="radio" name="genero">M
-                        <input type="radio" name="genero">F
+                        <input type="radio" name="gen" value="M" required>Masculino
+                        <input type="radio" name="gen" value="F" required>Femenino
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <select class="menu1" name="materia">
-                            <option value="">Ingles</option>
-                            <option value="">Español</option>
-                            <option value="">Sociales</option>
-                            <option value="">Calculo</option>
+                        <select class="menu1" name="mater" required>
+                            <option selected hidden value="">MATERIAS</option>
+                            <option value="ing">Ingles</option>
+                            <option value="esp">Español</option>
+                            <option value="soc">Sociales</option>
+                            <option value="cal">Calculo</option>
                         </select>
                     </td>
                 </tr>

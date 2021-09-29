@@ -47,7 +47,7 @@ input[type = "password"]{
     color: #021F59;
     text-align: center;
 }
-input[type = "mail"]{
+input[type = "email"]{
     
     width: 100%;
     background: none;
